@@ -4,7 +4,7 @@ services:
     runtime: node
     plan: starter
     autoDeploy: true
-    buildCommand: npm ci && npm run build
+    buildCommand: npm ci --include=dev && npm run build
     startCommand: npm run start
     healthCheckPath: /api/health
     disk:
@@ -14,6 +14,8 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 22
+      - key: NPM_CONFIG_PRODUCTION
+        value: false
       - key: NODE_ENV
         value: production
       - key: HOST
