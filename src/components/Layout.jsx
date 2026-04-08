@@ -53,7 +53,7 @@ export default function Layout() {
           {/* Desktop Nav - two rows */}
           <div className="hidden lg:flex flex-col items-center gap-1 pb-2">
             <div className="flex items-center gap-2 mb-2">
-              <span className="text-lg font-bold text-sidebar-foreground">MAT 2.4</span>
+              <span className="text-lg font-bold text-sidebar-foreground">MOWI AIR TOOL</span>
               <span className="text-lg font-bold text-sidebar-primary">Ω</span>
             </div>
             <nav className="flex items-center justify-center gap-1">
@@ -115,7 +115,7 @@ export default function Layout() {
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-2">
                 <Fish className="w-5 h-5 text-sidebar-primary" />
-                <span className="font-semibold text-white">MAT 2.4</span>
+                <span className="font-semibold text-white">MOWI AIR TOOL</span>
               </div>
               <button onClick={() => setMobileOpen(false)} className="text-sidebar-foreground/60 hover:text-white">
                 <X className="w-5 h-5" />
